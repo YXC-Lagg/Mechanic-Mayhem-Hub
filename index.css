@@ -1,0 +1,28 @@
+body {
+	background: #CCCCCC;
+	text-align: center;
+}
+
+img {
+	padding-right: 25px;
+	padding-left: 25px;
+	padding-bottom: 25px;
+	padding-top: 25px;
+	height: 400px;
+	width: auto;
+}
+
+.center {
+	margin: auto;
+  width: 276px;
+}
+
+.zoom {
+  transition: transform .4s; /* Animation */
+  width: 276px;
+  height: 450px;
+}
+
+.zoom:hover {
+  transform: scale(1.1); /* (110% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
